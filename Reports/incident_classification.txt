@@ -1,0 +1,48 @@
+========================================
+     SOC INCIDENT CLASSIFICATION
+========================================
+
+Incident ID: SOC-2026-001
+
+Incident Type:
+Suspected Phishing Email
+
+Source:
+Email Security Investigation
+
+Severity:
+MEDIUM (Training Classification)
+
+Investigation Findings:
+
+1. Suspicious sender domain identified.
+2. SPF authentication failed.
+3. DKIM signature was absent.
+4. DMARC authentication failed.
+5. Suspicious URL identified.
+6. Sender and Return-Path differed.
+
+Potential Risks:
+
+- Credential theft
+- Account compromise
+- Unauthorised access
+- Financial fraud
+
+Recommended Actions:
+
+1. Quarantine the suspicious email.
+2. Identify other recipients.
+3. Search for similar messages.
+4. Block confirmed malicious indicators.
+5. Investigate affected user accounts.
+6. Escalate confirmed compromise to SOC L2.
+
+Final Classification:
+
+SIMULATED PHISHING ATTEMPT
+
+Investigation Status:
+Completed - Training Environment
+
+========================================

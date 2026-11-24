@@ -1,0 +1,32 @@
+========== IOC INVESTIGATION ==========
+
+PROJECT: Phishing Email Investigation
+
+1. EMAIL SENDER:
+security@bank-example.test
+
+2. RETURN-PATH:
+bounce@unknown-sender.test
+
+3. SUSPICIOUS DOMAIN:
+account-verification.example.test
+
+4. SOURCE IP:
+192.0.2.44
+
+5. SUSPICIOUS URL:
+http://account-verification.example.test/login
+
+6. EMAIL SUBJECT:
+Urgent: Your Account Has Been Suspended
+
+7. AUTHENTICATION RESULTS:
+SPF: FAIL
+DKIM: NONE
+DMARC: FAIL
+
+========================================
+
+NOTE:
+All indicators are fictional and reserved
+for cybersecurity training purposes.

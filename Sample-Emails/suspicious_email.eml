@@ -1,0 +1,27 @@
+From: Security Alert <security@bank-example.test>
+To: employee@company.test
+Subject: Urgent: Your Account Has Been Suspended
+Date: Mon, 23 Nov 2026 10:30:00 +0000
+Message-ID: <alert123@bank-example.test>
+Return-Path: <bounce@unknown-sender.test>
+Received: from unknown-sender.test (192.0.2.44)
+ by mail.company.test;
+Authentication-Results: mail.company.test;
+ spf=fail;
+ dkim=none;
+ dmarc=fail
+
+Dear Customer,
+
+We detected unusual activity on your bank account.
+
+Your account access has been temporarily restricted.
+
+Please verify your account information immediately:
+
+http://account-verification.example.test/login
+
+Failure to verify may result in account suspension.
+
+Regards,
+Bank Security Team
